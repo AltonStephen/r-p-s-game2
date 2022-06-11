@@ -1,0 +1,78 @@
+body {
+    background-color: #C5DAE1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0 -10px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(68, 95, 105);
+    text-align: center;
+}
+
+body > div {
+    margin: 10px 0
+}
+hr {
+    width: 75vw;
+    border-width: 2px;
+    border-color: rgba(68, 95, 105, 0.1);
+
+}
+#rps-btns{
+    width: 75vw;
+    height: 23vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    cursor: pointer;
+    margin: 2vw;
+    max-width: 20vw;
+    max-height: 20vw;
+    opacity: 0.7;
+    transition: all 500ms;
+}
+
+.button:hover {
+    max-width: 22vw;
+    max-height: 22vw;
+    opacity: 1;
+    transition: all 500ms;
+}
+#result {
+    height: 35px;
+}
+#result img {
+    display: inline-block;
+    height: 20px;
+}
+#scoreboard {
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#scoreboard > div {
+    text-align: center;
+}
+
+#scoreboard p {
+    font-size: 32pt;
+    font-weight: bold;
+}
+#winMsg {
+    font-size: 32pt;
+}
+#reset {
+    text-decoration: underline;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
